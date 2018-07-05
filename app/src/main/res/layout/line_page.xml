@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="当前位置"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:src="@drawable/fdj_white" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+
+        <LinearLayout
+            android:id="@+id/input_area"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#eee"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_from_address"
+                android:background="@drawable/bg_edittext_selector"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:hint="起始位置"
+                android:text="当前位置"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/et_to_address"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext_selector"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:hint="终点位置"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btn_to_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="开始规划路线" />
+        </LinearLayout>
+
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true" />
+    </FrameLayout>
+</LinearLayout>

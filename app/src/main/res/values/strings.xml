@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">咻咻导游</string>
+    <string name="load_page_three_btn">欢迎进入主页面</string>
+    <string name="nav_1">首页</string>
+    <string name="nav_2">附近</string>
+    <string name="nav_3">线路</string>
+    <string name="nav_4">天气</string>
+
+    <string name="poet_fuzhou">台江访古\n\n无诸古城外，潮满合沙洲。\n宾从留骢马，壶觞度彩舟。\n山回川月夜，猿哭海云秋。\n寂寞屠龙事，台江空自流。</string>
+    <string name="poet_guangzhou">与王六履震广州津亭晓望\n\n明发临前渚，寒来净远空。\n水纹天上碧，日气海边红。\n景物纷为异，人情赖此同。\n乘槎自有适，非欲破长风。</string>
+    <string name="poet_beijing">送幻群法师\n\n北京一别后，吴楚几听砧。\n住久白发出，讲长枯叶深。\n香连邻舍像，磬彻远巢禽。\n寂默应关道，何人见此心。</string>
+    <string name="poet_nanjing">金陵三首（二）\n\n地拥金陵势，城回江水流。\n当时百万户，夹道起朱楼。\n亡国生春草，离宫没古丘。\n空余后湖月，波上对江洲。</string>
+    <string name="poet_xian">忆江上吴处士\n\n闽国扬帆后，蟾蜍亏复圆。\n秋风吹渭水，落叶满长安。\n此地聚会夕，当时雷雨寒。\n兰桡殊未返，消息海云端。</string>
+    <string name="nav_5">我的</string>
+</resources>
